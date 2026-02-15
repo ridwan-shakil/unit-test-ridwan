@@ -2,12 +2,12 @@
 [![this repository](https://github.com/humanmade/plugin-tester/tree/master?tab=readme-ov-file)]
 
 ## Follow this steps to setup a docker environment for testing your wp plugin
-    1. Clone this repository
-    2. replace this line in bootstrap.php with you plugin file name : your-plugin-entry-point.php
-    3. Run : composer update
-    4. Run inside powershell : docker run --rm -v "${PWD}:/code" humanmade/plugin-tester
-    5. Write tests inside tests folder and run them 
-    6. .github folder allows you to run those tests on CI pipeline automatically on every PRs 
+ -` Clone this repository`
+ -` replace this line in bootstrap.php, with you plugin file name : your-plugin-entry-point.php`
+ -` Run : composer update`
+ -` Run inside powershell :`  docker run --rm -v "${PWD}:/code" humanmade/plugin-tester
+ -` Write tests inside tests folder and run them `
+ -` .github folder allows you to run those tests on CI pipeline automatically on every PRs `
 
 
 ## Documentation of original repository 
