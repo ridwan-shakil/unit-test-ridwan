@@ -11,9 +11,7 @@
 ###  Run Inside Powershell :
  	 docker run --rm -v "${PWD}:/code" humanmade/plugin-tester --colors=always
  #### OR  Inside git :
-	```
 	docker run --rm -v "$(pwd -W):/code" humanmade/plugin-tester
-	 ```
 
 
 ## Documentation of original repository 
