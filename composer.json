@@ -3,8 +3,9 @@
     "phpunit/phpunit": "^9",
     "yoast/phpunit-polyfills": "^2.0"
   },
-    "config": {
+  "config": {
     "platform": {
       "php": "7.4.0"
+    }
   }
 }
